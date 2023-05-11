@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Social Media Dashboard with color theme switcher]</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body id="body">
+  <section class="main-body">
+    <header>
+      <div class="header-para">
+        <h1>Social Media Dashboard</h1>
+        <p class="header-text">Total Followers: 23,004</p>
+      </div>
+        <div class="hr"></div>
+      <div class="toggle-btn">
+        <p class="header-text">Dark Mode</p> 
+        <div class="toggle-switch">
+          <input class="toggle-input" id="toggle" type="checkbox">
+          <label class="toggle-label" for="toggle"></label>
+        </div>
+              
+      </div>
+
+    </header>
+
+    <div class="dashboard-top">
+      <div class="tile">
+        <div class="card-header facebook"></div>
+        <div class="social">
+          <img src="icon-facebook.svg" alt="">
+          <p>@nathanf</p>
+        </div>
+        <div class="followers">
+          <h1 class="foll-no">1987</h1>
+          <p class="foll">Followers</p>
+        </div>
+        <div class="today">
+          <p class="tod-txt up"><img src="icon-up.svg" alt="">12 Today</p>
+        </div>     
+      </div>
+      <div class="tile">
+        <div class="card-header twitter"></div>
+        <div class="social">
+          <img src="icon-twitter.svg" alt="">
+          <p>@nathanf</p>
+        </div>
+        <div class="followers">
+          <h1 class="foll-no">1044</h1>
+          <p class="foll">Followers</p>
+        </div>
+        <div class="today">
+          <p class="tod-txt up"><img src="icon-up.svg" alt="">99 Today</p>
+        </div>
+      </div>
+      <div class="tile">
+        <div class="card-header instagram"></div>
+        <div class="social">
+          <img src="icon-instagram.svg" alt="">
+          <p>@realnathanf</p>
+        </div>
+        <div class="followers">
+          <h1 class="foll-no">11k</h1>
+          <p class="foll">Followers</p>
+        </div>
+        <div class="today">
+          <p class="tod-txt up"><img src="icon-up.svg" alt="">1099 Today</p>
+        </div>
+      </div>
+      <div class="tile">
+        <div class="card-header youtube"></div>
+        <div class="social">
+          <img src="icon-youtube.svg" alt="">
+          <p>Nathan F.</p>
+        </div>
+        <div class="followers">
+          <h1 class="foll-no">8239</h1>
+          <p class="foll">Subscribers</p>
+        </div>
+        <div class="today">
+          <p class="tod-txt down"><img src="icon-down.svg" alt="">144 Today</p>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="ov-tod">Overview - Today</h1>
+    <div class="overview">
+      <div class="mini-tile">
+        <div class="left">
+          <p class="ov-text">Page Views</p>
+          <h3>87</h3>
+        </div>
+        <div class="right">
+          <img src="icon-facebook.svg" alt="" class="mini-icon">
+          <p class="mini-pc up"><img src="icon-up.svg">3%</p>
+        </div>
+      </div>
+      <div class="mini-tile">
+        <div class="left">
+          <p class="ov-text">Likes</p>
+          <h3>52</h3>
+        </div>
+        <div class="right">
+          <img src="icon-facebook.svg" alt="" class="mini-icon">
+          <p class="mini-pc down"><img src="icon-down.svg">2%</p>
+        </div>
+      </div>
+      <div class="mini-tile">
+        <div class="left">
+          <p class="ov-text">Likes</p>
+          <h3>5462</h3>
+        </div>
+        <div class="right">
+          <img src="icon-instagram.svg" alt="" class="mini-icon">
+          <p class="mini-pc up"><img src="icon-up.svg">2257%</p>
+        </div>
+      </div>
+      <div class="mini-tile">
+        <div class="left">
+          <p class="ov-text">Profile Views</p>
+          <h3>52k</h3>
+        </div>
+        <div class="right">
+          <img src="icon-instagram.svg" alt="" class="mini-icon">
+          <p class="mini-pc up"><img src="icon-up.svg">1375%</p>
+        </div>
+      </div>
+      <div class="mini-tile">
+        <div class="left">
+          <p class="ov-text">Retweets</p>
+          <h3>117</h3>
+        </div>
+        <div class="right">
+          <img src="icon-twitter.svg" alt="" class="mini-icon">
+          <p class="mini-pc up"><img src="icon-up.svg">303%</p>
+        </div>
+      </div>
+      <div class="mini-tile">
+        <div class="left">
+          <p class="ov-text">Likes</p>
+          <h3>52</h3>
+        </div>
+        <div class="right">
+          <img src="icon-twitter.svg" alt="" class="mini-icon">
+          <p class="mini-pc up"><img src="icon-up.svg">553%</p>
+        </div>
+      </div>
+      <div class="mini-tile">
+        <div class="left">
+          <p class="ov-text">Likes</p>
+          <h3>107</h3>
+        </div>
+        <div class="right">
+          <img src="icon-youtube.svg" alt="" class="mini-icon">
+          <p class="mini-pc down"><img src="icon-down.svg">19%</p>
+        </div>
+      </div>
+      <div class="mini-tile">
+        <div class="left">
+          <p class="ov-text">Total Views</p>
+          <h3>1407</h3>
+        </div>
+        <div class="right">
+          <img src="icon-youtube.svg" alt="" class="mini-icon">
+          <p class="mini-pc down"><img src="icon-down.svg">12%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Le-Paih">Luis Le Paih</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
